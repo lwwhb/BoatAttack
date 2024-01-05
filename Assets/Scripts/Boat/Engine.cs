@@ -30,10 +30,10 @@ namespace BoatAttack
 
         private void Awake()
         {
-			if(engineSound)
+			if(engineSound && engineSound.clip)
 				engineSound.time = UnityEngine.Random.Range(0f, engineSound.clip.length); // randomly start the engine sound
 
-			if(waterSound)
+			if(waterSound && waterSound.clip)
 				waterSound.time = UnityEngine.Random.Range(0f, waterSound.clip.length); // randomly start the water sound
 
             _guid = GetInstanceID(); // Get the engines GUID for the buoyancy system

@@ -183,6 +183,7 @@ PlayerSettings:
   applicationIdentifier:
     Android: com.Unity3d.BoatAttackDay
     Lumin: com.DefaultCompany.BoatAttack
+    OpenHarmony: com.UnityTechnologies.BoatAttack
     Standalone: com.UnityTechnologies.BoatAttack
     iPhone: com.Unity3D.BoatAttack
   buildNumber:
@@ -1018,6 +1019,7 @@ PlayerSettings:
     iPhone: 1
   scriptingBackend:
     Android: 1
+    OpenHarmony: 1
     Standalone: 0
   il2cppCompilerConfiguration: {}
   il2cppCodeGeneration: {}
@@ -1043,7 +1045,7 @@ PlayerSettings:
   suppressCommonWarnings: 1
   allowUnsafeCode: 0
   useDeterministicCompilation: 1
-  selectedPlatform: 0
+  selectedPlatform: 5
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
   gcIncremental: 1

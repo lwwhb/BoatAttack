@@ -20,6 +20,8 @@ EditorBuildSettings:
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 3f119a19757f84dac85ee298b9dd65d3,
       type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: e83a7955b10fc4216bff96a148045ccc,
+      type: 2}
   m_SlimFeaturesWeixinMiniGame:
     DecompressASTC: 0
     DecompressDXT: 1
